@@ -1,4 +1,4 @@
-# Insight-Airbnb-Data-Collecter
+# Inside-Airbnb-Data-Collecter
 
 ## Introduction
 

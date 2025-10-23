@@ -20,7 +20,6 @@ IACollector is a tool for batch downloading, processing, and storing data from t
   4. **downloadpath** allows to input three parameters: all, data, and visualisations, representing different download sources respectively. It defaults to all.
   5. When the corresponding file already exists locally, it will be skipped and support breakpoint resuming.
 - **tosql** will import the unpacked Airbnb data into the PostgreSQL database (**iacollector.tosql**):
-  ![1751358757136](image/README/1751358757136.png)
 
   1. Initialize the PostgreSQL connection and create the **ia_detail**(**visualisations**) and **ia_simple**(**data**) databases with a schema for each city.(Will be skipped if it already exists)
   2. Unzip the downloaded file and do some basic preprocessing, such as price fields. And specify **listing_id** as the primary key of the listings and reviews tables.
